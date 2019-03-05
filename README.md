@@ -28,7 +28,7 @@ dependencies {
 
 <b>Initialize library:</b>
 
-<li>Init in the xml</li>
+
 <pre>
 	<jdroidcoder.ua.paginationrecyclerview.PaginationRecyclerView
 		android:id="@+id/paginationRecyclerView"
