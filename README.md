@@ -19,7 +19,7 @@ You can use this library with our other library for work with Network API: https
 <li>Add dependency in gradle(app level)</li>
 <pre>
 dependencies {
-	implementation 'com.github.JDroidCoder:apiservice:1.0.2'
+	implementation 'com.github.JDroidCoder:PaginationRecyclerView:v1.0.0'
 }
 </pre>
 
