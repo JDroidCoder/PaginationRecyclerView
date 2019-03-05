@@ -29,7 +29,7 @@ dependencies {
 <b>Initialize library:</b>
 
 <li>Init in the xml</li>
-<div>
+<div class="highlight highlight-text-xml">
 <pre>
 	<jdroidcoder.ua.paginationrecyclerview.PaginationRecyclerView
 		android:id="@+id/paginationRecyclerView"
