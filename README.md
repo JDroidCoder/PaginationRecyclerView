@@ -29,7 +29,7 @@ dependencies {
 <b>Initialize library:</b>
 
 <li>Init in the xml</li>
-<pre><code>
+<pre><code class="language-xml">
 	<jdroidcoder.ua.paginationrecyclerview.PaginationRecyclerView
 		android:id="@+id/paginationRecyclerView"
 		android:layout_width="match_parent"
