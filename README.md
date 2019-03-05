@@ -48,19 +48,18 @@ dependencies {
 Code example:
 <b>Xml (activity_main):</b>
 <pre>
-<?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
-
+<pre>
     <jdroidcoder.ua.paginationrecyclerview.PaginationRecyclerView
         android:id="@+id/paginationRecyclerView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".MainActivity" />
-
+</pre>
 </android.support.constraint.ConstraintLayout></pre>
 <b>Activity class:</b>
 <pre>
