@@ -29,13 +29,13 @@ dependencies {
 <b>Initialize library:</b>
 
 <li>Init in the xml</li>
-<pre>
+<myxml>
 <jdroidcoder.ua.paginationrecyclerview.PaginationRecyclerView
         android:id="@+id/paginationRecyclerView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".MainActivity" />
-</pre>
+</myxml>
 <li>Add OnPageChangeListener</li>
 <pre>  
  paginationRecyclerView?.setOnPageChangeListener(object : OnPageChangeListener {
@@ -44,5 +44,4 @@ dependencies {
     }
 })
 </pre>  
-</ul>
 
