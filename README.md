@@ -33,8 +33,7 @@ dependencies {
 	<jdroidcoder.ua.paginationrecyclerview.PaginationRecyclerView
 		android:id="@+id/paginationRecyclerView"
 		android:layout_width="match_parent"
-		android:layout_height="match_parent"
-		tools:context=".MainActivity" />
+		android:layout_height="match_parent" />
 </pre>
 <li>Add OnPageChangeListener</li>
 <pre>  
