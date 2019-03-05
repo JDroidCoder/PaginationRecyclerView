@@ -86,14 +86,12 @@ class MainActivity : AppCompatActivity() {
 }
 </pre>
 <b>item_style.xml:</b>
-<pre>
-<TextView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/itemTextView"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:padding="20dp"
-    android:textSize="20sp" />
-</pre>
+	<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:id="@+id/itemTextView"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:padding="20dp"
+	    android:textSize="20sp" />
 <b>RecyclerViewAdapter:</b>
 <pre>
 class RecyclerViewAdapter(private val items: ArrayList<String>) : RecyclerView.Adapter<ViewHolder>() {
